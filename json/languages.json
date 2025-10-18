@@ -5,20 +5,12 @@
   "javascript": "",
   "typescript": "",
   "python": "",
-  "rust": "",
   "c": "",
   "c++": "",
   "C#": "",
   "lua": "",
-  "scss": "",
   "go": "",
   "php": "",
   "swift": "",
-  "perl": "",
-  "assembly": "",
-  "ruby": "",
-  "matlab": "",
-  "kotlin": "",
-  "bash": "",
-  "powershell": ""
+  "kotlin": ""
 }

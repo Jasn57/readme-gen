@@ -5,16 +5,16 @@ const linux = document.getElementById('tool-linux');
 const virtualbox = document.getElementById('tool-virtualbox');
 
 vscode.addEventListener('click', async () => {
-}
+});
 
 figma.addEventListener('click', async () => {
-}
+});
 
 github.addEventListener('click', async () => {
-}
+});
 
 linux.addEventListener('click', async () => {
-}
+});
 
 virtualbox.addEventListener('click', async () => {
-}                        
+});                    

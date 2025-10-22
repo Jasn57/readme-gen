@@ -5,13 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ReadMe Gen</title>
   <meta name="description" content="A place to make great GitHub readmes" />
-  <link rel="stylesheet" href="src/css/style.css" />
+  <link rel="stylesheet" href="src/frontend/css/style.css" />
 </head>
 <body>
   <section id="username">
     <h2>Username</h2>
     <input type="text" placeholder="Enter your GitHub username">
     <button id="github-username" type="button">Github Username</button>
+  </section>
+  <section id="bio">
+    <h2>Bio</h2>
+    <input if="bio_input" type="text" placeholder="Example: Hi, my name is ____. I am building a ____, I am learning ____.">
+    <button id="bio_button" type="button">Bio</button>
   </section>
   <section id="languages">
     <h2>Languages</h2>
@@ -39,6 +44,7 @@
       <button id="stat-commitgraph type="button">Commits</button>
     </div>
   </section>
+  <button id="submit" type="button">Create</button>
 
   <div id="output"></div>
   

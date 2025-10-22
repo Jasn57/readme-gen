@@ -1,4 +1,4 @@
-ody {
+body {
     font-family: Arial, sans-serif;
     margin: 20px;
     background-color: #f4f4f4;
@@ -57,3 +57,4 @@ button:hover {
     min-height: 100px;
     border: 1px solid #dee2e6;
 }
+

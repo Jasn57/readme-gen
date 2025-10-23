@@ -1,6 +1,9 @@
 const bio = document.getElementById('bio_input');
-const button = document.getElementById('bio_button');
 
-button.addEventListener('click', async () => {
-bio_output = bio_input
-});
+let bio_output = "";
+
+if (!bio.value) {
+  console.log("add bio");
+} else {
+  bio_output += bio.value;
+}

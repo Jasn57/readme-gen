@@ -10,14 +10,14 @@
 <body>
   <section id="username">
     <h2>Username</h2>
-    <input type="text" placeholder="Enter your GitHub username">
-    <button id="github-username" type="button">Github Username</button>
+    <input id="github-username" type="text" placeholder="Enter your GitHub username">
   </section>
+
   <section id="bio">
     <h2>Bio</h2>
-    <input if="bio_input" type="text" placeholder="Example: Hi, my name is ____. I am building a ____, I am learning ____.">
-    <button id="bio_button" type="button">Bio</button>
+    <input id="bio_input" type="text" placeholder="Example: Hi, my name is ____. I am building a ____, I am learning ____."/>
   </section>
+
   <section id="languages">
     <h2>Languages</h2>
     <div class="button-group">
@@ -28,6 +28,7 @@
       <button id="lang-python" type="button">Python</button>
     </div>
   </section>
+
   <section id="tools">
     <h2>Tools</h2>
     <div class="button-group">
@@ -35,22 +36,26 @@
       <button id="tool-github" type="button">GitHub</button>
       <button id="tool-linux" type="button">Linux</button>
       <button id="tool-virtualbox" type="button">Virtualbox</button>
+      <button id="tool-figma" type="button">Figma</button>
     </div>
   </section>
+
   <section id="stats">
     <h2>Stats</h2>
     <div class="button-group">
       <button id="stat-langgraph" type="button">Languages</button>
-      <button id="stat-commitgraph type="button">Commits</button>
+      <button id="stat-commitgraph" type="button">Commits</button>
     </div>
   </section>
+
   <button id="submit" type="button">Create</button>
 
   <div id="output"></div>
   
-  <script src="src/frontend/js/app.js"></script>
-  <script src="src/frontend/js/tools.js"></script>
-  <script src="src/frontend/js/lang.js"></script>
-  <script src="src/frontend/js/stats.js"></script>
+  <!-- Load scripts in order and defer so DOM is ready -->
+  <script src="src/frontend/js/tools.js" defer></script>
+  <script src="src/frontend/js/lang.js" defer></script>
+  <script src="src/frontend/js/stats.js" defer></script>
+  <script src="src/frontend/js/app.js" defer></script>
 </body>
 </html>

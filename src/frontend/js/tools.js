@@ -3,6 +3,9 @@ const figma = document.getElementById('tool-figma');
 const github = document.getElementById('tool-github');
 const linux = document.getElementById('tool-linux');
 const virtualbox = document.getElementById('tool-virtualbox');
+const git = document.getElementById('tool-git');
+const docker = document.getElementById('tool-docker');
+const aws = document.getElementById('tool-aws');
 
 let tool_output = "";
 
@@ -25,3 +28,17 @@ linux.addEventListener('click', () => {
 virtualbox.addEventListener('click', () => {
   tool_output += "![VirtualBox](https://img.shields.io/badge/VirtualBox-183A61?style=for-the-badge&logo=virtualbox&logoColor=white) ";
 });
+
+git.addEventListener('click', () => {
+  tool_output += "![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)";
+});
+
+docker.addEventListener('click', () => {
+  tool_output += "![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)";
+});
+
+aws.addEventListener('click', () => {
+  tool_output += "![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)";
+});
+
+

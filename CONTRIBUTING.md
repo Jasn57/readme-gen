@@ -1,0 +1,2 @@
+- Find and fix bugs
+- Add more tools, languages, and stats

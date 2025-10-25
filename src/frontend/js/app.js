@@ -1,5 +1,7 @@
 const submit = document.getElementById('submit');
 
+let credit = "<!-- Created with readme-gen (https://github.com/Jasn57/readme-gen) -->"
+
 submit.addEventListener('click', () => {
   updateBio();
   
@@ -18,6 +20,9 @@ submit.addEventListener('click', () => {
         <h3>Stats</h3>
         <p>${stat_output}</p>
       </div>
+      <div id="credits">
+      <p>${credit}</p>
+      </div
     </section>
   `;
 

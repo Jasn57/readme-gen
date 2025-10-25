@@ -1,6 +1,8 @@
 const submit = document.getElementById('submit');
 
 submit.addEventListener('click', () => {
+  updateBio();
+  
   let output = `
     <section id="readme">
       <div id="bio">

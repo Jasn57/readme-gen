@@ -14,8 +14,6 @@ const swift = document.getElementById("lang-swift");
 const lua = document.getElementById("lang-lua");
 const typescript = document.getElementById('lang-typescript');
 
-
-
 let lang_output = "";
 
 java.addEventListener('click', () => { 

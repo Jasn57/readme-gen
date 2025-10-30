@@ -1,19 +1,13 @@
-# Read Me Generator
-A frontend web app that that helps you create better readme files for your profile.
+# Readme-gen
 
-## Tech
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+A frontend web app to make readmes
 
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+## Usage
+1. Enter your username and bio
+2. Select the tech stack you want added
+3. Copy to Github
 
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-
-## Feature Plans
-- add more languages, tools, and stats
-- add bio templates
-- make the site look better
-
-## Author
+## Author 
 Jason Vance
 
 ## License
